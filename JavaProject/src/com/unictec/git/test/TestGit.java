@@ -15,7 +15,7 @@ public class TestGit {
 		
 		List<List<Integer>> listOfListofInts = Arrays.asList(a, b, c);
 		System.out.println("Before flattening : " + listOfListofInts);
-		
+		System.out.println("b");
 		List<Integer> listofInts = listOfListofInts.parallelStream()
 				                        .flatMap(list -> list.parallelStream())
 				                        	.collect(Collectors.toList());
