@@ -12,6 +12,8 @@ public class TestGit {
 		List<Integer> a = Arrays.asList(1, 2, 3);
 		List<Integer> b = Arrays.asList(4, 5);
 		List<Integer> c = Arrays.asList(7, 8, 9);
+
+		System.out.println(a);
 		
 		List<List<Integer>> listOfListofInts = Arrays.asList(a, b, c);
 		System.out.println("Before flattening : " + listOfListofInts);
